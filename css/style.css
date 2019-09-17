@@ -55,6 +55,20 @@ nav {
   font-size: 10px;
 }
 
+main {
+  margin-top: 30px;
+}
+
+div {
+  border: 1px white solid;
+  border-radius: 2% 2%;
+  padding: 5px;
+}
+
+div.container {
+  border: 0;
+}
+
 main:after {
 content: "";
 display: table;
@@ -92,6 +106,8 @@ footer {
   height: 50px;
   background: brown;
   position: absolute;
+  border: 3px white solid;
+  border-radius: 2% 2%;
 }
 
 h6 {
