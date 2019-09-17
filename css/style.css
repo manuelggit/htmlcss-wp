@@ -15,10 +15,13 @@ body {
 }
 
 header {
-  height: 200px;
-  background: yellow;
+  height: 250px;
+  background-image: url("../img/alberi.jpg");
   margin-bottom: 20px;
   position: relative;
+  color: white;
+  border: 5px solid white;
+  box-sizing: content-box;
 }
 
 h1 {
@@ -26,7 +29,8 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
+  border: 5px solid white;
+  padding: 7px 15px 1px;
 }
 
 h3 {
@@ -41,7 +45,14 @@ nav {
   background: grey;
   width: 100%;
   position: absolute;
-  bottom: 0;
+  top: 250px;
+  margin-top: 5px;
+}
+
+.vocenav {
+  padding: 5px 20px;
+  display: inline-block;
+  font-size: 10px;
 }
 
 main:after {
