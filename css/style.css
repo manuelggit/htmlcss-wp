@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/sfondo.jpg");
+}
+
+.container {
+  margin: 5% 20%;
+  text-align: center;
+  position: relative;
+}
+
+header {
+  height: 200px;
+  background: yellow;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+h3 {
+  position: absolute;
+  width: 500px;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+nav {
+  background: grey;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+main:after {
+content: "";
+display: table;
+clear: both;
+margin-bottom: 20px;
+}
+
+.sinistra {
+  display: inline-block;
+  float: left;
+  width: 20%;
+  background: red;
+}
+
+.centro {
+  display: inline-block;
+  width: 45%;
+  background: blue;
+}
+
+.destra {
+  float: right;
+  width: 20%;
+  background: pink;
+  position: relative;
+}
+
+.box {
+  background-color: lightgrey;
+  margin-bottom: 15px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background: brown;
+  position: absolute;
+}
+
+h6 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
