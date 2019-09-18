@@ -5,6 +5,7 @@
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   background-image: url("../img/sfondo.jpg");
 }
 
@@ -35,7 +36,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   border: 5px solid white;
-  padding: 7px 15px 1px;
+  padding: 7px 15px;
 }
 
 h3 {
