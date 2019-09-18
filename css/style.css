@@ -16,7 +16,7 @@ body {
 
 header {
   height: 250px;
-  background-image: url("../img/alberi.jpg");
+  background-image: url("../img/alberi.jpeg");
   margin-bottom: 20px;
   position: relative;
   color: white;
@@ -25,6 +25,7 @@ header {
 }
 
 h1 {
+  font-size: 40px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -55,6 +56,10 @@ nav {
   font-size: 10px;
 }
 
+.vocenav:hover {
+  background: lightgrey;
+}
+
 main {
   margin-top: 30px;
 }
@@ -83,9 +88,14 @@ margin-bottom: 20px;
   background: white;
 }
 
+.fa fa-rss-square {
+  display: inline-block;
+}
+
 .listasinistra {
   margin-bottom: 10px;
   display: block;
+  width: 20%;
 }
 
 .centro {
