@@ -8,11 +8,15 @@ body {
   background-image: url("../img/sfondo.jpg");
 }
 
+/* CONTAINER */
+
 .container {
   margin: 5% 20%;
   text-align: center;
   position: relative;
 }
+
+/* HEADER */
 
 header {
   height: 250px;
@@ -42,6 +46,8 @@ h3 {
   transform: translate(-50%, -20%);
 }
 
+/* navbar */
+
 nav {
   background: grey;
   color: white;
@@ -57,17 +63,11 @@ li.vocenav {
   font-size: 10px;
 }
 
-li.listasinistra {
-  text-align: left;
-  display: block;
-  padding: 5px 20px;
-  color: green;
-}
-
-
 .vocenav:hover {
   background: lightgrey;
 }
+
+/* MAIN */
 
 main {
   margin-top: 30px;
@@ -79,15 +79,21 @@ div {
   padding: 5px;
 }
 
-section {
-  border: 0;
-}
 
 main:after {
 content: "";
 display: table;
 clear: both;
 margin-bottom: 20px;
+}
+
+/* blocco sinistra */
+
+li.listasinistra {
+  text-align: left;
+  display: block;
+  padding: 5px 20px;
+  color: green;
 }
 
 .sinistra {
@@ -107,11 +113,15 @@ margin-bottom: 20px;
   width: 20%;
 }
 
+/* blocco centro */
+
 .centro {
   display: inline-block;
   width: 45%;
   background: white;
 }
+
+/* blocco destra */
 
 .destra {
   float: right;
@@ -127,6 +137,8 @@ margin-bottom: 20px;
   box-sizing: padding-box;
   border: 0;
 }
+
+/* FOOTER */
 
 footer {
   width: 100%;
