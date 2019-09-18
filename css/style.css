@@ -65,7 +65,7 @@ div {
   padding: 5px;
 }
 
-div.container {
+section {
   border: 0;
 }
 
@@ -80,33 +80,41 @@ margin-bottom: 20px;
   display: inline-block;
   float: left;
   width: 20%;
-  background: red;
+  background: white;
+}
+
+.listasinistra {
+  margin-bottom: 10px;
+  display: block;
 }
 
 .centro {
   display: inline-block;
   width: 45%;
-  background: blue;
+  background: white;
 }
 
 .destra {
   float: right;
   width: 20%;
-  background: pink;
   position: relative;
+  border: 0;
 }
 
 .box {
-  background-color: lightgrey;
+  background-color: white;
   margin-bottom: 15px;
+  width: 100%;
+  box-sizing: padding-box;
+  border: 0;
 }
 
 footer {
   width: 100%;
   height: 50px;
-  background: brown;
+  background: lightgrey;
   position: absolute;
-  border: 3px white solid;
+  border: 3px lightgrey solid;
   border-radius: 2% 2%;
 }
 
@@ -115,4 +123,9 @@ h6 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%)
+}
+
+.fa fa-facebook-square {
+  font-size: 50px;
+  color: red;
 }
