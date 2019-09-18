@@ -44,17 +44,26 @@ h3 {
 
 nav {
   background: grey;
+  color: white;
   width: 100%;
   position: absolute;
   top: 250px;
   margin-top: 5px;
 }
 
-.vocenav {
+li.vocenav {
   padding: 5px 20px;
   display: inline-block;
   font-size: 10px;
 }
+
+li.listasinistra {
+  text-align: left;
+  display: block;
+  padding: 5px 20px;
+  color: green;
+}
+
 
 .vocenav:hover {
   background: lightgrey;
@@ -93,7 +102,7 @@ margin-bottom: 20px;
 }
 
 .listasinistra {
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   display: block;
   width: 20%;
 }
