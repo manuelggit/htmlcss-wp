@@ -76,7 +76,8 @@ main {
 div {
   border: 1px white solid;
   border-radius: 2% 2%;
-  padding: 5px;
+  padding: 10px;
+  text-align: left;
 }
 
 
@@ -92,7 +93,7 @@ margin-bottom: 20px;
 li.listasinistra {
   text-align: left;
   display: block;
-  padding: 5px 20px;
+  padding: 5px 0;
   color: green;
 }
 
@@ -110,7 +111,6 @@ li.listasinistra {
 .listasinistra {
   margin-bottom: 2px;
   display: block;
-  width: 20%;
 }
 
 /* blocco centro */
